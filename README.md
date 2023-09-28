@@ -10,7 +10,7 @@
 
 ## Installations and setup
 
-- git clone <a href="https://github.com/Mayank9001/code-editor.git">Code</a>
+- git clone <a href="https://github.com/Mayank9001/code-editor.git">Code</a> or `https://github.com/Mayank9001/code-editor.git`
 - `npm install`
 - A sample `.env.sample` file is given, Register on <a href="https://rapidapi.com/judge0-official/api/judge0-ce/pricing" target="__blank">RapidAPI</a> and get your API keys.
 - Create a `.env` file.
