@@ -31,7 +31,7 @@ body {
   fill:#000000;
 }
 .github-corner:hover .octo-arm {
-  animation:octocat-wave .56s;
+  animation:octocat-wave .6s;
 }
 @keyframes octocat-wave {
   0%, 100% {

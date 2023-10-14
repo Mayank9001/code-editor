@@ -41,8 +41,8 @@ const binarySearchHelper = (arr, target, start, end) => {
  }
 };
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const target = 5;
+const arr = [2, 4, 6, 7, 9, 10, 12, 15, 18, 20];
+const target = 12;
 console.log(binarySearch(arr, target));
 `;
 
@@ -60,6 +60,7 @@ const Landing = () => {
   const onSelectChange = (sl) => {
     console.log("selected Option...", sl);
     setLanguage(sl);
+    // javascriptDefault = ``;
   };
 
   useEffect(() => {
@@ -216,7 +217,7 @@ const Landing = () => {
 
       <a
         href="https://github.com/Mayank9001"
-        title="Fork me on GitHub"
+        title="Visit me on GitHub"
         class="github-corner"
         target="_blank"
         rel="noreferrer"
@@ -227,7 +228,7 @@ const Landing = () => {
           viewBox="0 0 250 250"
           className="relative z-20 h-20 w-20"
         >
-          <title>Fork me on GitHub</title>
+          <title>Visit me on GitHub</title>
           <path d="M0 0h250v250"></path>
           <path
             d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2"
@@ -269,7 +270,7 @@ const Landing = () => {
               customInput={customInput}
               setCustomInput={setCustomInput}
             />
-            <button
+            <button 
               onClick={handleCompile}
               disabled={!code}
               className={classnames(
