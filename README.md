@@ -2,7 +2,7 @@
 
 ⚡️ A code editor that compiles and runs your code on the web.
 
-<img src="https://github.com/Mayank9001/code-editor/blob/main/demo.png" />
+<!-- <img src="https://github.com/Mayank9001/code-editor/blob/main/demo.png" /> -->
 
 ## Features:
 
