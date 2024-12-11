@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="fixed h-8 bottom-0 px-2 py-1 flex items-center justify-center w-full text-xs text-gray-500 ">
+    <div className="fixed h-8 bottom-0 px-2 py-1 flex items-center justify-center w-full text-xs text-white-500 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
       <span>
         Built with{" "}
         <svg
@@ -33,11 +33,11 @@ const Footer = () => {
         </svg>{" "}
         by{" "}
         <a
-          className="text-gray-700  hover:bg-red-500 hover:text-white font-medium"
+          className="text-black-700  hover:cursor-pointer hover:text-gray-500 font-medium"
+          href="https://www.linkedin.com/in/mayank-vishwakarma-7721b7192/" target="blank"
         >
           Mayank.{" "}
         </a>
-        
       </span>
     </div>
   );

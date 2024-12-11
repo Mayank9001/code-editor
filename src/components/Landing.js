@@ -202,7 +202,7 @@ const Landing = () => {
   };
 
   return (
-    <>
+    <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
       <ToastContainer
         position="top-right"
         autoClose={2000}
@@ -286,7 +286,7 @@ const Landing = () => {
       </div>
     {/* </div> */}
       <Footer />
-    </>
+    </div>
   );
 };
 export default Landing;
