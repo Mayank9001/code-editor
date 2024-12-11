@@ -117,10 +117,7 @@ const Landing = () => {
         if (status === 429) {
           console.log("too many requests", status);
 
-          showErrorToast(
-            `Requests Limit Reached!`,
-            10000
-          );
+          showErrorToast(`Requests Limit Reached!`, 10000);
         }
         setProcessing(false);
         console.log("catch block...", error);
@@ -219,7 +216,7 @@ const Landing = () => {
         href="https://github.com/Mayank9001"
         title="Visit me on GitHub"
         class="github-corner"
-        target="_blank"
+        target="blank"
         rel="noreferrer"
       >
         <svg
@@ -270,7 +267,7 @@ const Landing = () => {
               customInput={customInput}
               setCustomInput={setCustomInput}
             />
-            <button 
+            <button
               onClick={handleCompile}
               disabled={!code}
               className={classnames(
@@ -284,7 +281,7 @@ const Landing = () => {
           {outputDetails && <OutputDetails outputDetails={outputDetails} />}
         </div>
       </div>
-    {/* </div> */}
+      {/* </div> */}
       <Footer />
     </div>
   );

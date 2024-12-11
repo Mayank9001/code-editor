@@ -34,7 +34,8 @@ const Footer = () => {
         by{" "}
         <a
           className="text-black-700  hover:cursor-pointer hover:text-gray-500 font-medium"
-          href="https://www.linkedin.com/in/mayank-vishwakarma-7721b7192/" target="blank"
+          href="https://www.linkedin.com/in/mayank-vishwakarma-7721b7192/"
+          target="blank"
         >
           Mayank.{" "}
         </a>
