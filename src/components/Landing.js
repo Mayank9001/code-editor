@@ -118,7 +118,7 @@ const Landing = () => {
           console.log("too many requests", status);
 
           showErrorToast(
-            `Quota of 100 requests exceeded for the Day! Please read the blog on freeCodeCamp to learn how to setup your own RAPID API Judge0!`,
+            `Requests Limit Reached!`,
             10000
           );
         }
@@ -243,7 +243,7 @@ const Landing = () => {
           ></path>
         </svg>
       </a>
-
+      {/* <div className="bg-teal-950"> */}
       <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
       <div className="flex flex-row">
         <div className="px-4 py-2">
@@ -284,6 +284,7 @@ const Landing = () => {
           {outputDetails && <OutputDetails outputDetails={outputDetails} />}
         </div>
       </div>
+    {/* </div> */}
       <Footer />
     </>
   );
