@@ -4,8 +4,12 @@
 
 <img src="https://github.com/Mayank9001/code-editor/blob/main/demo.png" />
 
+<<<<<<< HEAD
 ## Features:
 
+=======
+## Features: 
+>>>>>>> ac2eaf6e61d0ab3a594d3247527910ba86489b01
 - Compile and execute code in 15+ programming languages.
 - Switch themes from a list of available themes.
 
