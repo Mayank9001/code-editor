@@ -4,12 +4,8 @@
 
 <img src="https://github.com/Mayank9001/code-editor/blob/main/demo.png" />
 
-<<<<<<< HEAD
 ## Features:
 
-=======
-## Features: 
->>>>>>> ac2eaf6e61d0ab3a594d3247527910ba86489b01
 - Compile and execute code in 15+ programming languages.
 - Switch themes from a list of available themes.
 
@@ -26,5 +22,4 @@ TODO:
 
 1. User login, authentication and registration (Firebase Auth)
 2. User Profile Page
-3. Save code functionality (Firestore - use Slug based approach)
-4. Share code functionality
+3. Save code functionality (Firestore)
