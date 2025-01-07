@@ -37,7 +37,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/mayank-vishwakarma-7721b7192/"
           target="blank"
         >
-          Mayank.{" "}
+          @Mayank.{" "}
         </a>
       </span>
     </div>
